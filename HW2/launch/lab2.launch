@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="lab2" type="talker_to_rotate.py" name="talker_to_rotate" output="screen" />
+  <node pkg="lab2" type="rotate_robot.py" name="rotate_robot" output="screen" />
+  <node pkg="lab2" type="debug.py" name="debug" output="screen" />
+</launch> 
+
+
